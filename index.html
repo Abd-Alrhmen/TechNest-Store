@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <title>TechNest Store</title>
+</head>
+<body>
+    <div class="nav-main flex justify-between py-2 md:px-14 w-full items-center">
+        <h1 class="text-white text-[24px]">TechNest Store</h1>
+            <input type="search" id="search" placeholder="What are you looking for?" class="w-[50%] bg-white outline-none p-1 decoration-none rounded ">
+        <div class="icon flex gap-3 items-center">
+            <button id="cart-icon" class="bg-[#ffca28] text-white py-2 px-3 flex rounded inhert">
+                <span class="material-symbols-outlined">
+                    shopping_cart
+                    <a href="shopping_cart"></a>
+                </span>
+            </button>
+            <div class="icon-serch">
+                <button id="menu-button" class="md:hidden bg-[#ffca28] text-white text-6 py-2 px-3 rounded">
+                    ☰
+                </button>
+            </div>  
+        </div>
+    </div>
+    <div class="container">
+        <nav><ul id="navbar" class="hidden md:flex" ></ul></nav>
+        <div class="data relative">
+            <div id="product-list" class="products"></div>
+            <div id="cart-container" class="cart absolute z-50 hidden right-0 -top-11 sm:top-0">
+                <h2>cart</h2>
+                <span id="close-cart" class="material-symbols-outlined absolute top-5 right-6 text-white cursor-pointer">close</span>
+                <ul id="cart-items" class="cart-items"></ul>
+                <p class="total-amount">
+                    Total: <span class="total-money">$ <span id="cart-total">0.00</span></span>
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

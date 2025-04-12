@@ -3,15 +3,15 @@
         "id": 1,
         "title": "Sony WH-1000XM5 Headphones",
         "description": "Premium noise-canceling wireless headphones with up to 30 hours of battery life.",
-        "image": "Sony WH-1000XM5 Headphones.jpg",
-        "category": "Electronics",
+        "image": "Sony-WH-1000XM5-Headphones.jpg",
+        "category": "Eleckktronist",
         "price": 349.99
     },
     {
         "id": 2,
         "title": "Samsung Galaxy S23 Ultra",
         "description": "Flagship smartphone with a powerful processor and pro-grade camera.",
-        "image": "SAMSUNG S23 Ultra.jpg",
+        "image": "SAMSUNG-S23-Ultra.jpg",
         "category": "Electronics",
         "price": 1199.99
     },
@@ -19,7 +19,7 @@
         "id": 3,
         "title": "Ergonomic Office Chair",
         "description": "Adjustable office chair with lumbar support and breathable mesh back.",
-        "image": "NOBLEWELL Ergonomic Office Chair, Desk Chair with 2'' Adjustable Lumbar Support, Headrest, 2D Armrest, Office Chair Backrest 135° Freely Locking and Rocking, Computer Chair for Home Office.jpg",
+        "image": "NOBLEWELL-Ergonomic-Office-Chair.jpg",
         "category": "Furniture",
         "price": 249.99
     },
@@ -27,7 +27,7 @@
         "id": 4,
         "title": "Garmin Forerunner 945",
         "description": "Advanced GPS smartwatch for athletes with heart rate monitoring.",
-        "image": "Smart watch Garmin untuk pengguna olahraga tipe….jpg",
+        "image": "Smart-watch-Garmin-untuk.jpg",
         "category": "Fitness",
         "price": 499.99
     },
@@ -35,7 +35,7 @@
         "id": 5,
         "title": "Bose SoundLink Revolve+",
         "description": "Portable Bluetooth speaker with 360-degree sound and long battery life.",
-        "image": "Bose SoundLink Revolve+ II _ 360° Wireless Bluetooth Speaker _ Waterproof, Portable & Long Battery.jpg",
+        "image": "Wireless-Bluetooth-Speaker-Waterproof.jpg",
         "category": "Electronics",
         "price": 199.99
     },
@@ -43,7 +43,7 @@
         "id": 6,
         "title": "Manduka PRO Yoga Mat",
         "description": "High-density yoga mat for superior grip and comfort during workouts.",
-        "image": "PRO Series Yoga Mat _ Manduka Europe.jpg",
+        "image": "PRO-Series-Yoga-Mat_Manduka-Europe.jpg",
         "category": "Fitness",
         "price": 129.99
     },
@@ -51,7 +51,7 @@
         "id": 7,
         "title": "Modern LED Desk Lamp",
         "description": "Adjustable LED lamp with multiple brightness levels and eye-protection mode.",
-        "image": "Creative Wooden Art Iron LED Folding Nordic Desk Lamp Eye Protection Reading Table Lamp Living Room Bedroom Home Decor - Yellow _ WHITE _ US plug.jpg",
+        "image": "Creative-Wooden-Art-Iron-LED.jpg",
         "category": "Home & Living",
         "price": 39.99
     },
@@ -59,7 +59,7 @@
         "id": 8,
         "title": "North Face Waterproof Backpack",
         "description": "Durable and spacious backpack ideal for travel and daily use.",
-        "image": "Bose SoundLink Revolve+ II _ 360° Wireless Bluetooth Speaker _ Waterproof, Portable & Long Battery.jpg",
+        "image": "The-North-Face.jpg",
         "category": "Accessories",
         "price": 79.99
     },
@@ -67,7 +67,7 @@
         "id": 9,
         "title": "Nike Air Zoom Pegasus 40",
         "description": "High-performance running shoes with responsive cushioning for maximum comfort.",
-        "image": "Nike - AIR ZOOM PEGASUS 40 - 40 _ Black_Grey_White.jpg",
+        "image": "Nike-AIR-ZOOM-PEGASUS.jpg",
         "category": "Fashion",
         "price": 129.99
     },
@@ -75,7 +75,7 @@
         "id": 10,
         "title": "Apple MacBook Air M2",
         "description": "Powerful and lightweight laptop with an M2 chip and Retina display.",
-        "image": "macbook air.jpg",
+        "image": "macbook-air.jpg",
         "category": "Electronics",
         "price": 1199.99
     },
@@ -83,7 +83,7 @@
         "id": 11,
         "title": "Tefal Non-Stick Cookware Set",
         "description": "10-piece cookware set with heat-resistant handles for everyday cooking.",
-        "image": "The North Face Router Backpack - TNF Black-TNF Black.jpg",
+        "image": "CAROTE-11pcs-Pots-and-Pans-Set.jpg",
         "category": "Kitchen",
         "price": 159.99
     },
@@ -91,7 +91,7 @@
         "id": 12,
         "title": "Philips Electric Kettle",
         "description": "Fast-boiling electric kettle with auto shut-off and 1.7L capacity.",
-        "image": "Βραστήρας Philips HD9339_80 Μαύρο 1,7 L Χάλυβας 2200 W.jpg",
+        "image": "Βραστήρας-Philips-HD9339.jpg",
         "category": "Kitchen",
         "price": 49.99
     },
@@ -99,7 +99,7 @@
         "id": 13,
         "title": "Ray-Ban Classic Sunglasses",
         "description": "Stylish polarized sunglasses with UV protection for outdoor adventures.",
-        "image": "RayBan Sunglasses — Original Wayfarer Classic.jpg",
+        "image": "RayBan-Sunglasses-Original Wayfarer-Classic.jpg",
         "category": "Accessories",
         "price": 159.99
     },
@@ -107,7 +107,7 @@
         "id": 14,
         "title": "Apple Watch Series 9",
         "description": "Smartwatch with health tracking, GPS, and customizable watch faces.",
-        "image": "Apple Watch Series 9.jpg",
+        "image": "Apple-Watch-Series-9.jpg",
         "category": "Electronics",
         "price": 399.99
     },
@@ -115,7 +115,7 @@
         "id": 15,
         "title": "Xiaomi Electric Scooter Pro 2",
         "description": "Foldable electric scooter with a long-range battery and smooth ride.",
-        "image": "Xiaomi Mi 1S Electric Scooter.jpg",
+        "image": "Xiaomi-Mi-1S-Electric-Scooter.jpg",
         "category": "Outdoor & Travel",
         "price": 599.99
     },
@@ -123,7 +123,7 @@
         "id": 16,
         "title": "Minimalist Wooden Desk Organizer",
         "description": "Compact desk organizer with multiple compartments for stationery and gadgets.",
-        "image": "Desk Organizer Set Ideas For A Tidy Workspace.jpg",
+        "image": "Desk-Organizer-Set-Ideas-For-A-Tidy-Workspace.jpg",
         "category": "Home & Living",
         "price": 29.99
     },
@@ -131,7 +131,7 @@
         "id": 17,
         "title": "Coleman 4-Person Tent",
         "description": "Weatherproof camping tent with quick setup and spacious interior.",
-        "image": "Coleman Gold Series Evo Instant Up 4 Person Tent _ Coleman.jpg",
+        "image": "Coleman-Gold-Series-Evo-Instant.jpg",
         "category": "Outdoor & Travel",
         "price": 199.99
     },
@@ -139,7 +139,7 @@
         "id": 18,
         "title": "De'Longhi Espresso Machine",
         "description": "Automatic coffee maker with a built-in grinder and milk frother.",
-        "image": "Pákové espresso De'Longhi EC9555_M La Specialista Opera.jpg",
+        "image": "Pákové-espresso-De'Longhi.jpg",
         "category": "Kitchen",
         "price": 499.99
     },
@@ -147,7 +147,7 @@
         "id": 19,
         "title": "Catan Strategy Board Game",
         "description": "Best-selling board game with engaging strategy and multiplayer fun.",
-        "image": "Wooden Game Board for Settlers of Catan.jpg",
+        "image": "Wooden-Game-Board.jpg",
         "category": "Home & Living",
         "price": 49.99
     },
@@ -155,7 +155,7 @@
         "id": 20,
         "title": "Canon EOS R10 Camera",
         "description": "Mirrorless camera with 4K recording and high-speed autofocus.",
-        "image": "Diana Millos puts the EOS R10 to the test.jpg",
+        "image": "Diana-Millos-puts-the-EOS-R10.jpg",
         "category": "Electronics",
         "price": 1299.99
     }

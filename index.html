@@ -7,17 +7,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
-    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
     <title>TechNest Store</title>
 </head>
 <body>
-    <div class="nav-main flex justify-between py-2 md:px-14 w-full items-center">
-        <h1 class="text-white text-[24px]">TechNest Store</h1>
-            <input type="search" id="search" placeholder="What are you looking for?" class="w-[50%] bg-white outline-none p-1 decoration-none rounded ">
-        <div class="icon flex gap-3 items-center">
-            <button id="cart-icon" class="bg-[#ffca28] text-white py-2 px-3 flex rounded inhert">
+    <div class="nav-main flex justify-between p-2 md:px-14 w-full items-center">
+        <h1 class="text-white text-lg md:text-[24px]">TechNest Store</h1>
+            <input type="search" id="search" placeholder="What are you looking for?" class="w-[38%] bg-white outline-none p-1 decoration-none rounded placeholder:text-[12px] text-black">
+        <div class="icon flex gap-2 items-center">
+            <button id="cart-icon" class="bg-[#ffca28] text-white py-2 px-2 flex rounded inhert">
                 <span class="material-symbols-outlined">
                     shopping_cart
                     <a href="shopping_cart"></a>
@@ -31,9 +31,11 @@
         </div>
     </div>
     <div class="container">
-        <nav><ul id="navbar" class="hidden md:flex" ></ul></nav>
+        <nav ><ul id="navbar" class="hidden md:flex flex-wrap justify-start md:w-[90%]" ></ul></nav>
         <div class="data relative">
-            <div id="product-list" class="products"></div>
+            <p id="empty-product" class="empty-product text-black text-black absolute top-24 left-1/2 transform -translate-x-1/2 "></p>
+            <div id="product-list" class="products">
+            </div>
             <div id="cart-container" class="cart absolute z-50 hidden right-0 -top-11 sm:top-0">
                 <h2>cart</h2>
                 <span id="close-cart" class="material-symbols-outlined absolute top-5 right-6 text-white cursor-pointer">close</span>
@@ -44,6 +46,8 @@
             </div>
         </div>
     </div>
+      <footer id="footer" class="bg-[#0f172a] p-4">
+      </footer>   
     <script src="script.js"></script>
 </body>
 </html>

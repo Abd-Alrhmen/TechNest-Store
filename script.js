@@ -1,5 +1,8 @@
 let  cart = JSON.parse(localStorage.getItem("cart")) || [] ;
 const emptyProduct = document.getElementById("empty-product");
+let container = document.getElementById("container");
+const searchInput = document.getElementById("search");
+
 function initializeApp() {
     fetch("./maine.json")
     .then((response) => response.json())
@@ -57,7 +60,7 @@ function rinderCategores(products){
         navpar.appendChild(navItem);
     });
     //search Bay Title
-    const searchInput = document.getElementById("search");
+    // const searchInput = document.getElementById("search");
     searchInput.addEventListener("input", ()=>{
         let searchValue = searchInput.value.trim().toLowerCase();
         const filterdtitle = products.filter((product) => product.title.toLowerCase().includes(searchValue));
@@ -182,23 +185,29 @@ function updateFooterContent(){
     //footer 
     let footer = document.getElementById("footer");
     if(window.innerWidth <= 566 ){
+        searchInput.classList.add("placeholder:text-[10px]")
+        container.classList.add("min-height:calc(100vh-290px)")
         footer.innerHTML =`  
         <div>
-            <div class="contact text-[#404553] w-full flex justify-center gap-[10px]  ">
-                <a class="inline-block p-2 bg-[#ffca28] rounded-full" href=""><i class="fab fa-whatsapp inline-block w-5 h-5 text-center  hover:text-[#ffb300]"></i></a>
-                <a class="inline-block p-2 bg-[#ffca28] rounded-full"><i class="fa-brands fa-linkedin inline-block w-5 h-5 text-center  hover:text-[#ffb300]"></i></a>
-                <a class="inline-block p-2 bg-[#ffca28] rounded-full" href=""><i class="fa-brands fa-github inline-block w-5 h-5 text-center  hover:text-[#ffb300]"></i></a>
+            <div class="contact text-[#404553] mb-[10px] w-full flex justify-center gap-[10px]  ">
+                <a class="inline-block p-2 w-[40px] h-[40px]  flex justify-center items-center bg-[#ffca28] text-white rounded-full" href=""><i class="fab fa-whatsapp inline-block w-5 h-5 text-center  hover:text-[#ffb300]"></i></a>
+                <a class="inline-block p-2 w-[40px] h-[40px]  flex justify-center items-center bg-[#ffca28] text-white rounded-full"><i class="fa-brands fa-linkedin inline-block w-5 h-5 text-center  hover:text-[#ffb300]"></i></a>
+                <a class="inline-block p-2 w-[40px] h-[40px]  flex justify-center items-center bg-[#ffca28] text-white rounded-full" href="https://github.com/Abd-Alrhmen/"><i class="fa-brands fa-github inline-block w-5 h-5 text-center  hover:text-[#ffb300]"></i></a>
             </div>  
-            <p class="block text-center">&copy; 2025 Abdulrahman Ahmed</p>
+            <p class="block text-center text-lg font-semibold mt-4">
+                &copy; Abdulrahman Ahmed
+            </p>
         </div>`
     }else{
         footer.innerHTML =`  
         <div class="flex items-center justify-between">        
-            <p>&copy; 2025 Abdulrahman Ahmed</p>
+            <p class="block text-center text-lg font-semibold">
+            &copy; Abdulrahman Ahmed
+            </p>
             <div class="contact text-[#404553] flex justify-between w-[150px]">
-                <a class="inline-block p-2 bg-[#ffca28] rounded-full" href="https://wa.me/201007437698"><i class="fab fa-whatsapp inline-block w-5 h-5 text-center  hover:text-[#ffb300]"></i></a>
-                <a class="inline-block p-2 bg-[#ffca28] rounded-full" href="https://www.linkedin.com/in/abdelrahman-ahmed-60b468262?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin inline-block w-5 h-5 text-center  hover:text-[#ffb300]"></i></a>
-                <a class="inline-block p-2 bg-[#ffca28] rounded-full" href="https://abd-alrhmen.github.io/portfolio/"><i class="fa-brands fa-github inline-block w-5 h-5 text-center  hover:text-[#ffb300]"></i></a>
+                <a class="inline-block p-2 w-[40px] h-[40px]  flex justify-center items-center bg-[#ffca28] text-white rounded-full" href="https://wa.me/201007437698"><i class="fab fa-whatsapp inline-block w-5 h-5 text-center  hover:text-[#ffb300]"></i></a>
+                <a class="inline-block p-2 w-[40px] h-[40px]  flex justify-center items-center bg-[#ffca28] text-white rounded-full" href="https://www.linkedin.com/in/abdelrahman-ahmed-60b468262?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin inline-block w-5 h-5 text-center  hover:text-[#ffb300]"></i></a>
+                <a class="inline-block p-2 w-[40px] h-[40px]  flex justify-center items-center bg-[#ffca28] text-white rounded-full" href="https://github.com/Abd-Alrhmen/"><i class="fa-brands fa-github inline-block w-5 h-5 text-center  hover:text-[#ffb300]"></i></a>
             </div>
         </div>`
     };

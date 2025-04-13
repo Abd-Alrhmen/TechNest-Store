@@ -80,7 +80,7 @@ function renderProducts(products) {
             productCard.className = "product-card";
             productCard.innerHTML = `
             <span class="id">#${product.id}</span>
-            <img src="/img/${product.image}" alt="${product.title}">
+            <img src="img/${product.image}" alt="${product.title}">
             <h2>${product.title}</h2>
             <p class="description">${product.description}</p>
             <div class="info-container">

@@ -87,14 +87,18 @@ nav ul .nav-item:hover {
     display: block;
 } 
 .products .product-card h2 {
-    font-size: 18px;
-    height: 54px;
-    margin: 0 0 10px;
+    font-size: 15px;
+    margin: 0 0 5px;
     color: #000;
 }
 .products .product-card .description{
-    line-height: 1.5;
-    height: 100px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    line-height: 1;
+    height: calc(1em * 2);
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .products .product-card p {
     font-size: 14px;
@@ -117,8 +121,6 @@ nav ul .nav-item:hover {
     border-radius: 6px;
     cursor: pointer;
     font-size: 14px;
-    /* position: absolute;
-    bottom: 18px; */
 }
 .products .product-card button:hover {
     background-color: #ffb300;

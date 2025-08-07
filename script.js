@@ -189,7 +189,7 @@ function updateFooterContent(){
         footer.innerHTML =`  
         <div>
             <div class="contact text-[#404553] mb-[10px] w-full flex justify-center gap-[10px]  ">
-                <a class="inline-block p-2 w-[55px] h-[55px]  flex justify-center items-center bg-[#ffca28]  hover:bg-[#ffb300] text-white rounded-full" href="https://wa.me/201007437698"><i class="fab fa-whatsapp  w-5 h-5 flex items-center justify-center text-3xl"></i></a>
+                <a class="inline-block p-2 w-[55px] h-[55px]  flex justify-center items-center bg-[#ffca28]  hover:bg-[#ffb300] text-white rounded-full" href="https://wa.me/+2010074347698"><i class="fab fa-whatsapp  w-5 h-5 flex items-center justify-center text-3xl"></i></a>
                 <a class="inline-block p-2 w-[55px] h-[55px]  flex justify-center items-center bg-[#ffca28]  hover:bg-[#ffb300] text-white rounded-full" href="https://www.linkedin.com/in/abdelrahman-ahmed-60b468262?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin  w-5 h-5 flex items-center justify-center text-3xl"></i></a>
                 <a class="inline-block p-2 w-[55px] h-[55px]  flex justify-center items-center bg-[#ffca28]  hover:bg-[#ffb300] text-white rounded-full" href="https://github.com/Abd-Alrhmen/"><i class="fa-brands fa-github  w-5 h-5 flex items-center justify-center text-3xl"></i></a>
             </div>  
